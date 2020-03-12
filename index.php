@@ -94,3 +94,13 @@ if($hTrabajadas <=40){
 }else {
     echo("Numero de horas trabajadas Extras: ".$hExtras."<br> Sueldo recibido: ".$sdevengadoe);
 }
+
+
+
+
+
+echo ("<br><br>Ejercicio 7 <br>");
+
+$salpicon = array (' dulce1'=> "banano"."<br>" ,'dulce2'=> "manzana"."<br>" ,'dulce3'=> "durazno" ."<br>",'acido1'=> "piña" ."<br>",'acido2'=> "naranja" ."<br>",'acido3'=> "lulo"  );
+print_r($salpicon);
+
