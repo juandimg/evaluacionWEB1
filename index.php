@@ -95,6 +95,86 @@ if($hTrabajadas <=40){
     echo("Numero de horas trabajadas Extras: ".$hExtras."<br> Sueldo recibido: ".$sdevengadoe);
 }
 
+echo ( " <br><br> Ejercicios numero 5 ") ;
+
+
+echo ( "<br>" );
+
+$sucursalA = array (
+    'usuario1' => array ( 'Nombre' => "Santiago" , 'Telefono' => "3107777777" , 'Direccion' => "carrera 14d # 45d-23" , 'Salario' => "$ 2000000" ),
+    'usuario2' => array ( 'Nombre' => "Camila" , 'Telefono' => "3145555555" , 'Direccion' => "carrera 30d # 34-88" , 'Salario' => "$ 1500000" ),
+    'usuario3' => array ( 'Nombre' => "Antonio" , 'Telefono' => "3206666666" , 'Direccion' => "calle 34d # 44d-83" , 'Salario' => "$ 5000000" ),
+    'usuario4' => array ( 'Nombre' => "Margarita" , 'Telefono' => "3163333333" , 'Direccion' => "carrera 34d # 45g-26" , 'Salario' => "$ 4000000" ),
+    'usuario5' => array ( 'Nombre' => "Armando" , 'Telefono' => "3202222222" , 'Direccion' => "calle 44d # 147d-123" , 'Salario' => "$ 2000000" )
+);
+
+
+foreach ( $sucursalA  as $clavemultidi => $valormultidi ) {
+
+    foreach ( $valormultidi  as  $clave => $valores ) {
+
+        echo ( $valores ). "-" ;
+        
+    }
+
+    echo ( "<br>" );
+   
+}
+
+
+$salario1 = 2000000 ;
+$salario2 = 1500000 ;
+$salario3 = 5000000 ;
+$Salario4 = 4000000 ;
+$salario5 = 5000000 ;
+
+$calcularSalarios = $salario1 + $salario2 + $salario3 + $salario4 + $salario5 ;
+
+
+$sucursalB = ( 20000000 );
+$sucursalC = ( 15000000 );
+
+if ( $calcularSalarios > $sucursalB ) {
+    echo ( "<br> El mayor ingreso lo tiene la sucursal A <br>" );
+}
+ {
+    echo ( "<br> El mayor ingreso lo tiene la sucursal B <br>" );
+}
+
+echo  "<br>" ;
+echo  "<br>" ;
+
+
+
+
+echo ( "<br> Ejercicios numero 6") ;
+echo  "<br>" ;
+echo  "<br>" ;
+
+echo  "<br>" ;
+
+$numerosPares = array (
+'El 1 ° numero par es:' => 2 ,
+'El 2 ° numero par es:' => 4 ,
+'El 3 ° numero par es:' => 6 ,
+'El 4 ° numero par es:' => 8 ,
+'El 5 ° numero par es:' => 10 ,
+'El 6 ° numero par es:' => 12 ,
+'El 7 ° numero par es:' => 14 ,
+'El 8 ° numero par es:' => 26 ,
+'El 9 ° numero par es:' => 18 ,
+'El 10 ° numero par es:' => 20 );
+
+
+
+foreach ( $numerosPares  as  $clave => $valor ) {
+    echo  "<br>" . $clave . "" . $valor ;
+}
+
+echo  "<br>" ;
+echo  "<br>" ;
+
+
 
 
 
@@ -112,6 +192,57 @@ include 'funciones.php';
 calcularedad(1991,2020);
 calcularedad2(1995,2020);
 calcularedad3(1987,2020);
+
+
+echo ("<br>Ejercicio 9 <br>");
+
+include 'funciones.php';
+
+echo  "<br>" ;
+echo  "<br>" ;
+
+echo  "<br>" ;
+
+calcularEstatura ( 1.65 . "m" );
+echo  "<br>" ;
+calcularEstatura ( 1.78 . "m" );
+echo  "<br>" ;
+calcularEstatura ( 1.95 . "m" );
+
+
+echo  ("ejercicios numero 10");
+
+echo "<br>";
+echo "<br>";
+
+echo "<br>";
+
+$futbolistas=array(
+    'Jugador1'=>array('Nombre'=>"Radamel Falcao", 'Año'=>1986, 'Posicion'=>"Delantero", 'Estatura'=>1.77),
+    'Jugador2'=>array('Nombre'=>"James Rodriguez", 'Año'=>1991, 'Posicion'=>"Medio campista", 'Estatura'=>1.81),
+    'Jugador3'=>array('Nombre'=>"Juan Cuadrados", 'Año'=>1988, 'Posicion'=>"Delantero", 'Estatura'=>1.78),
+    'Jugador4'=>array('Nombre'=>"Yerry Mina", 'Año'=>1994, 'Posicion'=>"Defensor", 'Estatura'=>1.95),
+    'Jugador5'=>array('Nombre'=>"David Ospina", 'Año'=>1988, 'Posicion'=>"Portero ", 'Estatura'=>1.83),
+    'Jugador6'=>array('Nombre'=>"Davinsón Sanchez", 'Año'=>1996, 'Posicion'=>"Defensor ", 'Estatura'=>1.87 ),
+    'Jugador7'=>array('Nombre'=>"Duvan Zapata", 'Año'=>1991, 'Posicion'=>"Delantero ", 'Estatura'=>1.86),
+    'Jugador8'=>array('Nombre'=>"Wilmar Barrios", 'Año'=>1993, 'Posicion'=>"Medio campista", 'Estatura'=>1.78),
+    'Jugador9'=>array('Nombre'=>"Mateus Uribe", 'Año'=>1991, 'Posicion'=>"Medio campista", 'Estatura'=>1.80)
+);
+
+
+foreach($futbolistas as $clavefutbol=>$valorfutbol){
+
+    foreach($valorfutbol as $clave=>$valor){
+        echo $clave . " : ";
+        echo $valor;
+        echo "<br>";
+
+    }
+    echo "<br>";
+}
+
+
+
 
 
 
