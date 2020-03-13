@@ -98,9 +98,20 @@ if($hTrabajadas <=40){
 
 
 
-
 echo ("<br><br>Ejercicio 7 <br>");
 $salpicon = array (' dulce1'=> "banano"."<br>" ,'dulce2'=> "manzana"."<br>" ,'dulce3'=> "durazno" ."<br>",'acido1'=> "piña" ."<br>",'acido2'=> "naranja" ."<br>",'acido3'=> "lulo"  );
 
 print_r($salpicon);
+
+
+
+echo ("<br><br>Ejercicio 8 <br>");
+
+include 'funciones.php';
+
+calcularedad(1991,2020);
+calcularedad2(1995,2020);
+calcularedad3(1987,2020);
+
+
 
