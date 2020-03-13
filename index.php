@@ -122,13 +122,13 @@ foreach ( $sucursalA  as $clavemultidi => $valormultidi ) {
 }
 
 
-$salario1 = 2000000 ;
-$salario2 = 1500000 ;
-$salario3 = 5000000 ;
-$Salario4 = 4000000 ;
-$salario5 = 5000000 ;
+$salario1=2000000 ;
+$salario2=1500000 ;
+$salario3=5000000 ;
+$Salario4=4000000 ;
+$salario5=5000000 ;
 
-$calcularSalarios = $salario1 + $salario2 + $salario3 + $salario4 + $salario5 ;
+$calcularSalarios = $salario1+$salario2+$salario3+$salario4+$salario5;
 
 
 $sucursalB = ( 20000000 );
@@ -196,7 +196,7 @@ calcularedad3(1987,2020);
 
 echo ("<br>Ejercicio 9 <br>");
 
-include 'funciones.php';
+
 
 echo  "<br>" ;
 echo  "<br>" ;
@@ -210,7 +210,7 @@ echo  "<br>" ;
 calcularEstatura ( 1.95 . "m" );
 
 
-echo  ("ejercicios numero 10");
+echo  (" <br>ejercicios numero 10");
 
 echo "<br>";
 echo "<br>";

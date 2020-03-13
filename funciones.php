@@ -1,6 +1,6 @@
 <?php
 
-//funcion calcular la edad de una persona
+
 
 function calcularEdad($nacimiento,$actual){
 $edad=$actual-$nacimiento;
@@ -20,17 +20,17 @@ function calcularEdad3($nacimiento,$actual){
 
 
 
-function  calcularEstatura ( $estatura ) {
-    if ( $estatura < 1.70 ) {
+function  calcularEstatura ($estatura ) {
+    if($estatura < 1.70 ){
         echo ( "Para la estatura" . $estatura . "el Biotipo es: Biotipo Bajo" );
         
     }
-    elseif ( $estatura <= 1.70 || $estatura < 1.80 ) {
+    elseif($estatura <= 1.70 || $estatura < 1.80 ) {
         echo ( "Para la estatura" . $estatura . "el Biotipo es: Biotipo Promedio" );
 
     }
-    elseif ( $estatura >= 1.80 ) {
-        echo ( "Para la estatura" . $estatura . "el Biotipo es: Biotipo Superior" );
+    elseif($estatura >= 1.80 ){
+        echo ("Para la estatura" . $estatura . "el Biotipo es: Biotipo Superior" );
 
     }
 
