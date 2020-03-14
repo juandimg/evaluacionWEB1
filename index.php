@@ -122,13 +122,13 @@ foreach ( $sucursalA  as $clavemultidi => $valormultidi ) {
 }
 
 
-$salario1=2000000 ;
-$salario2=1500000 ;
-$salario3=5000000 ;
-$Salario4=4000000 ;
-$salario5=5000000 ;
+$salario1=2000000;
+$salario2=1500000;
+$salario3=5000000;
+$Salario4=4000000;
+$salario5=5000000;
 
-$calcularSalarios = $salario1+$salario2+$salario3+$salario4+$salario5;
+$calcularSalarios = $salario1+$salario2+$salario3+$Salario4+$salario5;
 
 
 $sucursalB = ( 20000000 );
@@ -240,6 +240,9 @@ foreach($futbolistas as $clavefutbol=>$valorfutbol){
     }
     echo "<br>";
 }
+
+
+
 
 
 
